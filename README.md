@@ -36,6 +36,7 @@ I built an internal RESTful API for this web application so that data can be fle
 * POST: Creates recipe or share a recipe idea 
 
 ## Architecture
+![Architecture](https://github.com/user-attachments/assets/ed156582-0c22-4f87-8fff-86ab8b52892e)
 
 ## Future
 Beyond this initial MVP which was built in 3 weeks, I would like to continue to add many more features to the food recipe web service. In particular, I would like to setup an authentication system, such that when a user wants to share recipe, it will be checked if the recipe exist in the database or not before allowing it into the database. In addition, I'd like to allow users to search for recipe via category.
