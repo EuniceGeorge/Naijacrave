@@ -17,6 +17,15 @@ Eunice George is a former Strategist Information assistant and current full stac
 <br> **Eunice George** https://github.com/EuniceGeorge- Virtual Assistant, Fashion Designer, Software Engineer.<br>
 
 # API
+I built an internal RESTful API for this web application so that data can be flexibly retreived from the MySQLdb. All available endpoints can be found in the api.app directory. Here's a description of the endpoint:
+
+/api/recipes
+
+* GET: Retrieves all recipes objects for a list of ingredients and returns a list of Recipes containing all the ingredients.
+    
+* POST: Creates recipe or share a recipe idea 
+
+
 
 
 
