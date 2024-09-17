@@ -38,8 +38,6 @@ I built an internal RESTful API for this web application so that data can be fle
 ## Architecture
 
 ## Future
+Beyond this initial MVP which was built in 3 weeks, I would like to continue to add many more features to the food recipe web service. In particular, I would like to setup an authentication system, such that when a user wants to share recipe, it will be checked if the recipe exist in the database or not before allowing it into the database. In addition, I'd like to allow users to search for recipe via category.
 
-
-
-
-
+If you have any feedback (ex: feature ideas) or would like to contribute to this project, please feel free to contact me.
