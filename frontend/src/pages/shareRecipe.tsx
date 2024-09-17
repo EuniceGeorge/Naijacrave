@@ -39,7 +39,7 @@ function ShareRecipe() {
     data.ingredients = data.ingredients.split(",")
     console.log(data);
     try {
-	    let response = await axios.post(`${import.meta.env.VITE_URL}/api/recipes`,JSON.stringify(data), {
+	    let response = await axios.post(`http://127.0.0.1:5000/api/recipes`,JSON.stringify(data), {
 		    headers: {
 			    'Content-Type': 'application/json'
 		    }
@@ -50,6 +50,7 @@ function ShareRecipe() {
 	    }
     } catch(err: any) {
 	    alert("An error occurred")
+      console.log(err)
     }
   };
 
@@ -101,6 +102,7 @@ function ShareRecipe() {
               )}
             </label>
           </div>
+          <p className="text-black">Descriptions</p>
           <MyTipTap
             tiptap={{ status: submitStatus, getContent: getTipTapData }}
             ref={tiptapRef}
@@ -110,6 +112,7 @@ function ShareRecipe() {
             onClick={() => setSubmitStatus(true)}
             type="submit"
           >
+            
             {isSubmitting ? "Submitting..." : "Share Recipe"}
           </button>
         </form>
