@@ -7,7 +7,7 @@ from sqlalchemy import or_, Table, Column, Integer, ForeignKey
 from flask_cors import CORS
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from db_model import db, Ingredient, Recipe, IngredientRecipe
+from models.db_model import db, Ingredient, Recipe, IngredientRecipe
 app = Flask(__name__)
 CORS(app)
 #mysql://username:password@host:port/database_name
