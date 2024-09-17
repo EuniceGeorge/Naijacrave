@@ -1,3 +1,5 @@
+#This is an API for the food recipe web service
+
 import os
 from flask import Flask, render_template, request, url_for, redirect, jsonify
 from flask_sqlalchemy import SQLAlchemy
